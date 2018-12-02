@@ -1,0 +1,473 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6C84546821B1EEA0000168BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C84546721B1EEA0000168BD /* AppDelegate.swift */; };
+		6C84546A21B1EEA0000168BD /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C84546921B1EEA0000168BD /* CalendarViewController.swift */; };
+		6C84546F21B1EEA0000168BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C84546E21B1EEA0000168BD /* Assets.xcassets */; };
+		6C84547221B1EEA0000168BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C84547021B1EEA0000168BD /* LaunchScreen.storyboard */; };
+		6C84547A21B2192A000168BD /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C84547921B2192A000168BD /* DetailViewController.swift */; };
+		6C84547C21B2194F000168BD /* EventTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C84547B21B2194F000168BD /* EventTableViewCell.swift */; };
+		6C84547E21B21973000168BD /* SchedularViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C84547D21B21973000168BD /* SchedularViewController.swift */; };
+		6C84548021B219B2000168BD /* MonthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C84547F21B219B2000168BD /* MonthView.swift */; };
+		6C84548221B219CB000168BD /* WeekDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C84548121B219CB000168BD /* WeekDay.swift */; };
+		6C84548421B219F2000168BD /* EventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C84548321B219F2000168BD /* EventViewController.swift */; };
+		6C84548621B21A09000168BD /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C84548521B21A09000168BD /* Event.swift */; };
+		6C84548821B21C64000168BD /* AddEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C84548721B21C64000168BD /* AddEventViewController.swift */; };
+		6CE2D7DA21B30124001A9D79 /* NetWorkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE2D7D921B30124001A9D79 /* NetWorkManager.swift */; };
+		6CE2D7DC21B33E7B001A9D79 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE2D7DB21B33E7B001A9D79 /* SignInViewController.swift */; };
+		F73B397BCF816747F6AE6CD1 /* Pods_Schedular.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFC693FB02D71964D16878F8 /* Pods_Schedular.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4266B3168FF9C1D914BEFEBC /* Pods-Schedular.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Schedular.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Schedular/Pods-Schedular.debug.xcconfig"; sourceTree = "<group>"; };
+		6C84546421B1EEA0000168BD /* Schedular.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Schedular.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C84546721B1EEA0000168BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6C84546921B1EEA0000168BD /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		6C84546E21B1EEA0000168BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6C84547121B1EEA0000168BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6C84547321B1EEA0000168BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C84547921B2192A000168BD /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		6C84547B21B2194F000168BD /* EventTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventTableViewCell.swift; sourceTree = "<group>"; };
+		6C84547D21B21973000168BD /* SchedularViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchedularViewController.swift; sourceTree = "<group>"; };
+		6C84547F21B219B2000168BD /* MonthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthView.swift; sourceTree = "<group>"; };
+		6C84548121B219CB000168BD /* WeekDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekDay.swift; sourceTree = "<group>"; };
+		6C84548321B219F2000168BD /* EventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventViewController.swift; sourceTree = "<group>"; };
+		6C84548521B21A09000168BD /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		6C84548721B21C64000168BD /* AddEventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEventViewController.swift; sourceTree = "<group>"; };
+		6CE2D7D921B30124001A9D79 /* NetWorkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetWorkManager.swift; sourceTree = "<group>"; };
+		6CE2D7DB21B33E7B001A9D79 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		72D924AE3364B8CB22FE02FD /* Pods-Schedular.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Schedular.release.xcconfig"; path = "Pods/Target Support Files/Pods-Schedular/Pods-Schedular.release.xcconfig"; sourceTree = "<group>"; };
+		FFC693FB02D71964D16878F8 /* Pods_Schedular.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Schedular.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6C84546121B1EEA0000168BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F73B397BCF816747F6AE6CD1 /* Pods_Schedular.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6C84545B21B1EEA0000168BD = {
+			isa = PBXGroup;
+			children = (
+				6C84546621B1EEA0000168BD /* Schedular */,
+				6C84546521B1EEA0000168BD /* Products */,
+				8734585FC1EC79EFA7D39711 /* Pods */,
+				96BFE554D9849EE68588F43D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6C84546521B1EEA0000168BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6C84546421B1EEA0000168BD /* Schedular.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6C84546621B1EEA0000168BD /* Schedular */ = {
+			isa = PBXGroup;
+			children = (
+				6C84546721B1EEA0000168BD /* AppDelegate.swift */,
+				6C84546921B1EEA0000168BD /* CalendarViewController.swift */,
+				6C84547921B2192A000168BD /* DetailViewController.swift */,
+				6C84547B21B2194F000168BD /* EventTableViewCell.swift */,
+				6C84548321B219F2000168BD /* EventViewController.swift */,
+				6CE2D7D921B30124001A9D79 /* NetWorkManager.swift */,
+				6C84547D21B21973000168BD /* SchedularViewController.swift */,
+				6C84547F21B219B2000168BD /* MonthView.swift */,
+				6C84548121B219CB000168BD /* WeekDay.swift */,
+				6C84548721B21C64000168BD /* AddEventViewController.swift */,
+				6CE2D7DB21B33E7B001A9D79 /* SignInViewController.swift */,
+				6C84548521B21A09000168BD /* Event.swift */,
+				6C84546E21B1EEA0000168BD /* Assets.xcassets */,
+				6C84547021B1EEA0000168BD /* LaunchScreen.storyboard */,
+				6C84547321B1EEA0000168BD /* Info.plist */,
+			);
+			path = Schedular;
+			sourceTree = "<group>";
+		};
+		8734585FC1EC79EFA7D39711 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4266B3168FF9C1D914BEFEBC /* Pods-Schedular.debug.xcconfig */,
+				72D924AE3364B8CB22FE02FD /* Pods-Schedular.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		96BFE554D9849EE68588F43D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FFC693FB02D71964D16878F8 /* Pods_Schedular.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6C84546321B1EEA0000168BD /* Schedular */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C84547621B1EEA0000168BD /* Build configuration list for PBXNativeTarget "Schedular" */;
+			buildPhases = (
+				50BA523AE5939DF5816F4842 /* [CP] Check Pods Manifest.lock */,
+				6C84546021B1EEA0000168BD /* Sources */,
+				6C84546121B1EEA0000168BD /* Frameworks */,
+				6C84546221B1EEA0000168BD /* Resources */,
+				D5D3531999EA979204D7067F /* [CP] Embed Pods Frameworks */,
+				A79B8B8149BEF052D1692586 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Schedular;
+			productName = Schedular;
+			productReference = 6C84546421B1EEA0000168BD /* Schedular.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6C84545C21B1EEA0000168BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Songyu Gu";
+				TargetAttributes = {
+					6C84546321B1EEA0000168BD = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 6C84545F21B1EEA0000168BD /* Build configuration list for PBXProject "Schedular" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6C84545B21B1EEA0000168BD;
+			productRefGroup = 6C84546521B1EEA0000168BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6C84546321B1EEA0000168BD /* Schedular */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6C84546221B1EEA0000168BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C84547221B1EEA0000168BD /* LaunchScreen.storyboard in Resources */,
+				6C84546F21B1EEA0000168BD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		50BA523AE5939DF5816F4842 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Schedular-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A79B8B8149BEF052D1692586 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Schedular/Pods-Schedular-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Schedular/Pods-Schedular-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D5D3531999EA979204D7067F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Schedular/Pods-Schedular-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Schedular/Pods-Schedular-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6C84546021B1EEA0000168BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C84548221B219CB000168BD /* WeekDay.swift in Sources */,
+				6CE2D7DA21B30124001A9D79 /* NetWorkManager.swift in Sources */,
+				6C84548821B21C64000168BD /* AddEventViewController.swift in Sources */,
+				6C84548621B21A09000168BD /* Event.swift in Sources */,
+				6C84547C21B2194F000168BD /* EventTableViewCell.swift in Sources */,
+				6C84548021B219B2000168BD /* MonthView.swift in Sources */,
+				6C84547A21B2192A000168BD /* DetailViewController.swift in Sources */,
+				6C84546A21B1EEA0000168BD /* CalendarViewController.swift in Sources */,
+				6CE2D7DC21B33E7B001A9D79 /* SignInViewController.swift in Sources */,
+				6C84548421B219F2000168BD /* EventViewController.swift in Sources */,
+				6C84547E21B21973000168BD /* SchedularViewController.swift in Sources */,
+				6C84546821B1EEA0000168BD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6C84547021B1EEA0000168BD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C84547121B1EEA0000168BD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6C84547421B1EEA0000168BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6C84547521B1EEA0000168BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6C84547721B1EEA0000168BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4266B3168FF9C1D914BEFEBC /* Pods-Schedular.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Schedular/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.songyugu.Schedular;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6C84547821B1EEA0000168BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72D924AE3364B8CB22FE02FD /* Pods-Schedular.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Schedular/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.songyugu.Schedular;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6C84545F21B1EEA0000168BD /* Build configuration list for PBXProject "Schedular" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C84547421B1EEA0000168BD /* Debug */,
+				6C84547521B1EEA0000168BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C84547621B1EEA0000168BD /* Build configuration list for PBXNativeTarget "Schedular" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C84547721B1EEA0000168BD /* Debug */,
+				6C84547821B1EEA0000168BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6C84545C21B1EEA0000168BD /* Project object */;
+}
